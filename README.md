@@ -6,10 +6,10 @@ This project uses OpenAI's [Whisper](https://github.com/openai/whisper) model to
 
 ##  Features
 
-- 🎧 Transcribes speech from audio files (MP3, WAV, etc.)
-- 🌍 Automatically detects the spoken language
-- ⚡ Uses the fast and lightweight `turbo` model
-- 📄 Outputs clean, readable text
+-  Transcribes speech from audio files (MP3, WAV, etc.)
+-  Automatically detects the spoken language
+-  Uses the fast and lightweight `turbo` model
+-  Outputs clean, readable text
 
 ##  Getting Started
 
