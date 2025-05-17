@@ -18,9 +18,10 @@ git clone https://github.com/Hrishika1102/STT-Whisper.git
 
 ### 2. Install Requirements
 Make sure you have Python 3.8 or higher and ffmpeg installed.
+
 pip install -r requirements.txt
 
-### 3. How It Works
+## How It Works
   Loads the Whisper "turbo" model.
   Prepares the audio (pads/trims to 30s).
   Converts audio to Mel spectrogram.
