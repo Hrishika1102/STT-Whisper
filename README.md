@@ -17,20 +17,15 @@ This project uses OpenAI's [Whisper](https://github.com/openai/whisper) model to
 git clone https://github.com/Hrishika1102/STT-Whisper.git
 
 ### 2. Install Requirements
-Make sure you have Python 3.8 or higher and ffmpeg installed.
-
-pip install -r requirements.txt
+- Make sure you have Python 3.8 or higher and ffmpeg installed.
+- pip install -r requirements.txt
 
 ## How It Works
-  Loads the Whisper "turbo" model.
-  
-  Prepares the audio (pads/trims to 30s).
-  
-  Converts audio to Mel spectrogram.
-  
-  Detects language.
-  
-  Transcribes the audio and prints the text.
+ - Loads the Whisper "turbo" model.
+ - Prepares the audio (pads/trims to 30s).
+ - Converts audio to Mel spectrogram.
+ - Detects language.
+ - Transcribes the audio and prints the text.
 
 ## License
 MIT License. See LICENSE for details.
