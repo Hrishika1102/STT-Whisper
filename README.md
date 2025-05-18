@@ -23,9 +23,13 @@ pip install -r requirements.txt
 
 ## How It Works
   Loads the Whisper "turbo" model.
+  
   Prepares the audio (pads/trims to 30s).
+  
   Converts audio to Mel spectrogram.
+  
   Detects language.
+  
   Transcribes the audio and prints the text.
 
 ## License
